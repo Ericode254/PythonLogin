@@ -51,10 +51,10 @@ def DataBaseRegistration(username, password, phone):
 
 def DataBaseLogin(username, password):
     mydb = mysql.connector.connect(
-        host = "localhost",
-        user = "Erico",
-        password = "@JilloErick254",
-        database = "Logs"
+        host = "",
+        user = "",
+        password = "",
+        database = ""
     )
 
     cursor = mydb.cursor()
